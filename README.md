@@ -48,7 +48,8 @@ I used Visual Studio to construct this software. Without any plug-ins, I created
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Kanban
-https://github.com/users/SyurenChetty/projects/5
+Part 1 - https://github.com/users/SyurenChetty/projects/5
+Part 2 - https://github.com/users/SyurenChetty/projects/6/views/1
 
 ## Code attribuation
 - https://www.c-sharpcorner.com/UploadFile/61b832/creating-class-library-in-visual-C-Sharp/
