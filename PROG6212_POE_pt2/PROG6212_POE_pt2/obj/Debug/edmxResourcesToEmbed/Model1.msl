@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="POEModelStoreContainer" CdmEntityContainer="POEEntities">
+    <EntitySetMapping Name="modules">
+      <EntityTypeMapping TypeName="POEModel.module">
+        <MappingFragment StoreEntitySet="modules">
+          <ScalarProperty Name="moduleID" ColumnName="moduleID" />
+          <ScalarProperty Name="moduleCode" ColumnName="moduleCode" />
+          <ScalarProperty Name="moduleName" ColumnName="moduleName" />
+          <ScalarProperty Name="credits" ColumnName="credits" />
+          <ScalarProperty Name="hrs" ColumnName="hrs" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="studyDate" ColumnName="studyDate" />
+          <ScalarProperty Name="Weeks" ColumnName="Weeks" />
+          <ScalarProperty Name="studyHrs" ColumnName="studyHrs" />
+          <ScalarProperty Name="remain" ColumnName="remain" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="POEModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="hashPassword" ColumnName="hashPassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

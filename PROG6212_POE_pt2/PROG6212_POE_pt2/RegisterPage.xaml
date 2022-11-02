@@ -1,0 +1,35 @@
+﻿<Window x:Class="PROG6212_POE_pt2.RegisterPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROG6212_POE_pt2"
+        mc:Ignorable="d"
+         Title="Register" Height="550" Width="340" ResizeMode="NoResize" Visibility="Visible" WindowStartupLocation="CenterScreen">
+    <Grid Background="WhiteSmoke">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="130*"/>
+            <ColumnDefinition Width="37*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Labels-->
+        <Label Content="REGISTER" HorizontalAlignment="Left" Margin="27,23,0,0" VerticalAlignment="Top" Foreground="DarkOrchid" FontFamily="MS UI Gothic" FontWeight="Bold" FontSize="20"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="27,73,0,0" VerticalAlignment="Top" Foreground="Gray"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="27,148,0,0" VerticalAlignment="Top" Foreground="Gray"/>
+        <Label Content="Confirm Password" HorizontalAlignment="Left" Margin="27,228,0,0" VerticalAlignment="Top" Foreground="Gray"/>
+        <Label Content="Already Have an Account" HorizontalAlignment="Left" Margin="94,433,0,0" VerticalAlignment="Top" Foreground="Gray" Cursor="Hand"/>
+        <Label Content="Back into LOGIN" HorizontalAlignment="Left" Margin="115,459,0,0" VerticalAlignment="Top" Foreground="DarkOrchid" Cursor="Hand" MouseDoubleClick="Label_MouseDoubleClick"/>
+
+        <!-- TextBox-->
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="29" Margin="27,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" FontFamily="MS UI Gothic" FontSize="16" Background="#FFE6DCDC" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Grid.ColumnSpan="2"/>
+
+        <!-- PasswordBoxes -->
+        <PasswordBox x:Name="tb2" PasswordChar="*" HorizontalAlignment="Left" Height="29" Margin="27,179,0,0"  VerticalAlignment="Top" Width="270" FontFamily="NSimSun" FontSize="16" Background="#FFE6DCDC" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Grid.ColumnSpan="2"/>
+        <PasswordBox x:Name="tb3" PasswordChar="*" HorizontalAlignment="Left" Height="29" Margin="27,259,0,0" VerticalAlignment="Top" Width="270" FontFamily="MS UI Gothic" FontSize="16" Background="#FFE6DCDC" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Grid.ColumnSpan="2"/>
+
+        <!-- Buttons-->
+        <Button x:Name="bt1" Content="REGISTER" HorizontalAlignment="Left" Margin="27,338,0,0" VerticalAlignment="Top" Width="270" Height="35" Foreground="White" Background="DarkOrchid" Cursor="Hand" Click="bt1_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="bt2" Content="CLEAR" HorizontalAlignment="Left" Margin="27,393,0,0" VerticalAlignment="Top" Width="270" Height="35" Foreground="DarkOrchid" Background="White" Cursor="Hand" Click="bt2_Click" Grid.ColumnSpan="2"/>
+       
+    </Grid>
+</Window>

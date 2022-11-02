@@ -1,0 +1,30 @@
+﻿<Window x:Class="PROG6212_POE_pt2.LoginPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROG6212_POE_pt2"
+        mc:Ignorable="d"
+        Title="Login" Height="550" Width="340" ResizeMode="NoResize" Visibility="Visible" WindowStartupLocation="CenterScreen">
+    <Grid Background="WhiteSmoke">
+        <!-- Labels -->
+        <Label Content="LOGIN" HorizontalAlignment="Left" Margin="27,23,0,0" VerticalAlignment="Top" Foreground="DarkOrchid" FontFamily="MS UI Gothic" FontWeight="Bold" FontSize="20"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="27,73,0,0" VerticalAlignment="Top" Foreground="Gray"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="27,148,0,0" VerticalAlignment="Top" Foreground="Gray"/>
+        <Label Content="Don't Have an Account" HorizontalAlignment="Left" Margin="94,353,0,0" VerticalAlignment="Top" Foreground="Gray" Cursor="Hand"/>
+        <Label Content="Create Account" HorizontalAlignment="Left" Margin="115,379,0,0" VerticalAlignment="Top" Foreground="DarkOrchid" Cursor="Hand" MouseDoubleClick="Create_MouseDoubleClick"/>
+
+        <!-- TextBox-->
+        <TextBox x:Name="tb4" HorizontalAlignment="Left" Height="29" Margin="27,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" FontFamily="MS UI Gothic" FontSize="16" Background="#FFE6DCDC" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"/>
+       
+
+        <!-- PasswordBox -->
+        <PasswordBox x:Name="tb5" PasswordChar="*" HorizontalAlignment="Left" Height="29" Margin="27,179,0,0" VerticalAlignment="Top" Width="270" FontFamily="MS UI Gothic" FontSize="16" Background="#FFE6DCDC" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"/>
+       
+        <!-- Buttons -->
+        <Button x:Name="bt3" Content="LOGIN" HorizontalAlignment="Left" Margin="27,258,0,0" VerticalAlignment="Top" Width="270" Height="35" Foreground="White" Background="DarkOrchid" Cursor="Hand" Click="bt3_Click"/>
+        <Button x:Name="bt4" Content="CLEAR" HorizontalAlignment="Left" Margin="27,313,0,0" VerticalAlignment="Top" Width="270" Height="35" Foreground="DarkOrchid" Background="White" Cursor="Hand" Click="bt4_Click"/>
+
+
+    </Grid>
+</Window>
