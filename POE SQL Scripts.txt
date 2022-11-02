@@ -1,0 +1,25 @@
+-- Creation of the tables --
+create table users(
+UserId int IDENTITY(1,1) PRIMARY KEY,
+Username varchar(25) not null,
+hashPassword varchar(255) not null
+);
+
+create table modules(
+moduleID int IDENTITY(1,1) PRIMARY KEY,
+moduleCode varchar(10) not null,
+moduleName varchar(50) not null,
+credits int not null,
+hrs int not null,
+startDate date not null,
+studyDate date not null,
+Weeks int not null,
+studyHrs int not null,
+remain int not null,
+UserId int,
+FOREIGN KEY (UserId) REFERENCES users(UserId)
+);
+
+-- View all the data in each table --
+select * from dbo.modules
+select * from dbo.users

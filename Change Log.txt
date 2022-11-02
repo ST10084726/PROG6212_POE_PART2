@@ -1,0 +1,9 @@
+Changes made to Task 1
+--------------------------
+-- Added a login, registration window before the Module Calculator application
+-- Now the application runs with a database
+-- Improved comments
+-- Added a splash screen
+-- Added alot of Screen space due to feeedback
+-- Removed one datagrid and combine all data into one datagrid
+-- All elements now fit in max mode
