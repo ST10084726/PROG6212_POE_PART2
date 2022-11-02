@@ -1,0 +1,6 @@
+C:\Users\lab_services_student\source\repos\CalculateMod\CalculateMod\bin\Debug\CalculateMod.dll
+C:\Users\lab_services_student\source\repos\CalculateMod\CalculateMod\bin\Debug\CalculateMod.pdb
+C:\Users\lab_services_student\source\repos\CalculateMod\CalculateMod\obj\Debug\CalculateMod.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\source\repos\CalculateMod\CalculateMod\obj\Debug\CalculateMod.dll
+C:\Users\lab_services_student\source\repos\CalculateMod\CalculateMod\obj\Debug\CalculateMod.pdb
+C:\Users\lab_services_student\source\repos\CalculateMod\CalculateMod\obj\Debug\CalculateMod.csproj.AssemblyReference.cache

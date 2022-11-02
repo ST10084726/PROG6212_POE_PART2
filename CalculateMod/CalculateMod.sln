@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateMod", "CalculateMod\CalculateMod.csproj", "{AB114AE8-0C5E-4DE0-8C79-C7BC2CA88963}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB114AE8-0C5E-4DE0-8C79-C7BC2CA88963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB114AE8-0C5E-4DE0-8C79-C7BC2CA88963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB114AE8-0C5E-4DE0-8C79-C7BC2CA88963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB114AE8-0C5E-4DE0-8C79-C7BC2CA88963}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB2BA923-7870-49EB-8857-AF30F5B39488}
+	EndGlobalSection
+EndGlobal
